@@ -1,0 +1,27 @@
+/*CSS RESET*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/*Generics*/
+body {
+    width: 512px;
+    background-color: #191D7B;
+}
+
+/*Utility*/
+
+
+/*Header*/
+
+header {
+    min-height: 300px;
+    background-image: url(../img/banner.png);
+    min-height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
