@@ -14,9 +14,7 @@ body {
     background-color: #191D7B;
 }
 
-main {
-    border: 2px solid white;
-}
+
 /*Utility*/
 
 
@@ -36,16 +34,16 @@ header {
 
 .download {
     position: relative;
-    min-height: 500px;
+    min-height: 400px;
 }
 
 .download-sec-header {
     position: absolute;
     color: white;
     font-family: "Sigmar", sans-serif;
-    top: 10%;
+    top: 15%;
     left: 50%;
-    translate: -50% -10%;
+    translate: -50% -15%;
     text-align: center;
     line-height: 1;
 }
@@ -54,10 +52,10 @@ header {
     font-family: "DM Sans", sans-serif;
     color: white;
     font-weight: 500;
-    top: 32%;
+    top: 43%;
     position: absolute;
     left: 50%;
-    translate: -50% -32%;
+    translate: -50% -43%;
     text-align: center;
     width:69%;
     font-size: medium;
@@ -67,9 +65,9 @@ header {
 
 #download-button {
     position: absolute;
-    top: 51%;
+    top: 70%;
     left: 50%;
-    translate: -50% -51%;
+    translate: -50% -70%;
     background-color: white;
     width: 65%;
     padding: 3%;
@@ -83,9 +81,9 @@ header {
 
 .open-discord-button {
     position: absolute;
-    top: 65%;
+    top: 89%;
     left: 50%;
-    translate: -50% -65%;
+    translate: -50% -89%;
     background-color: #5865F2;
     width: 65%;
     padding: 3%;
@@ -96,4 +94,51 @@ header {
     font-size: medium;
     color: white;
 
+}
+
+/*Cards Section*/
+
+.cards-template {
+    position: relative;
+    background-color: #5D64D1;
+    border-radius: 30px;
+    max-width: 470px;
+    margin: 4% auto;
+    min-height: 600px;
+    padding: 5%;
+}
+
+.card-header {
+    position: absolute;
+    color: white;
+    font-family: "Sigmar", sans-serif;
+    text-align: left;
+    line-height: 1;
+    top: 10%;
+    font-size: xx-large;
+}
+
+.card-p {
+    position: absolute;
+    position: absolute;
+    top: 28%;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+}
+
+.discord-demo {
+    position: absolute;
+    bottom: 7%;
+    border-radius: 30px;
+    width: 70%;
+    left: 50%;
+    translate: -50% -7%;
+}
+
+.card-logo-cube {
+    position: absolute;
+    top: -8%;
+    left: 10%;
+    height: 90px;
+    translate: 8% -10%;;
 }
