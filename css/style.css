@@ -7,12 +7,16 @@
 }
 
 
+
 /*Generics*/
 body {
     width: 512px;
     background-color: #191D7B;
 }
 
+main {
+    border: 2px solid white;
+}
 /*Utility*/
 
 
@@ -25,3 +29,37 @@ header {
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+/*Main*/
+
+/*Section Download*/
+
+.download {
+    position: relative;
+    min-height: 500px;
+}
+
+.download-sec-header {
+    position: absolute;
+    color: white;
+    font-family: "Sigmar", sans-serif;
+    top: 10%;
+    left: 50%;
+    translate: -50% -10%;
+    text-align: center;
+    line-height: 1;
+}
+
+.download-sec-par {
+    font-family: "DM Sans", sans-serif;
+    color: white;
+    font-weight: 500;
+    top: 32%;
+    position: absolute;
+    left: 50%;
+    translate: -50% -32%;
+    text-align: center;
+    width:69%;
+    font-size: medium;
+}
+
